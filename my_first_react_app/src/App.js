@@ -20,7 +20,7 @@ class App extends Component {
       <div>
         <h1>Hello, {this.formatName(user)}</h1>
         <Products />
-        <Button>Default</Button>
+        <Button variant="danger">Default</Button>
       </div>
     );
   }
