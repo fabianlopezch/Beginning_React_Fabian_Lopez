@@ -16,11 +16,13 @@ class App extends Component {
       lastName: "Lopez Chamorro"
     };
 
+    const isValid = false;
+
     return (
       <div>
         <h1>Hello, {this.formatName(user)}</h1>
         <Products />
-        <Button variant="danger">Default</Button>
+        <Button variant="danger" disabled={!isValid}>Default</Button>
       </div>
     );
   }
